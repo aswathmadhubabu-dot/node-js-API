@@ -85,6 +85,24 @@ const requestid = request.params.id;
 
 });
 
+app.delete('/api/contacts/:id',function(request,response){
+
+const requestid = request.params.id;
+
+        let contact = contacts.filter(function(contact){
+
+            return contact.id == requestid;
+
+        })[0];
+
+       const index = contacts.indexOf(contact);
+
+       contacts.splice(index,1);
+
+        response.json({message:`user ${requestid} deleted.`});
+
+});
+
 
 
 const hostName = 'localhost';
