@@ -67,7 +67,7 @@ const requestid = request.params.id;
 
             return contact.id == requestid;
 
-        });
+        })[0];
 
        const index = contacts.indexOf(contact);
 
