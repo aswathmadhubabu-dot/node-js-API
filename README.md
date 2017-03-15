@@ -2,7 +2,7 @@
 
 ## 01-Client-App
 
-This example shows a simple Angular.js application which consumes data from the Express server set up in the step before. Data can also be sent to the server to be saved. The example lacks functionality for editing and deleting data. 
+This example shows a simple Angular.js application which consumes data from the Express server . Data can also be sent to the server to be saved. The example lacks functionality for editing and deleting data. 
 
 ### Installation and Running the App
 
