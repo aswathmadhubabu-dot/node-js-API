@@ -14,7 +14,7 @@
     "cors": "^2.8.1",
     "es6": "0.0.7",
     "express": "^4.15.2",
-    "mongodb": "^2.2.24"
+    "mongodb": "^4.0.0"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.22.0"
